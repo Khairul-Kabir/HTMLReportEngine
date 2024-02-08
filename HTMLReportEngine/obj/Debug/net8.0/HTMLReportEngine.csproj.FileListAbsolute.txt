@@ -23,3 +23,4 @@ D:\Projects\HTMLReportEngine\HTMLReportEngine\bin\Debug\net8.0\Select.HtmlToPdf.
 D:\Projects\HTMLReportEngine\HTMLReportEngine\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
 D:\Projects\HTMLReportEngine\HTMLReportEngine\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 D:\Projects\HTMLReportEngine\HTMLReportEngine\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+D:\PROJECTS\HTMLReportEngine\HTMLReportEngine\obj\Debug\net8.0\HTMLReportEngine.sourcelink.json

@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Output\" />
     <Folder Include="Template\Images\" />
+    <Folder Include="Template\DummyData\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HTMLReportEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6028ebd21fffe36816859b4498be2fa779a31c4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HTMLReportEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HTMLReportEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
