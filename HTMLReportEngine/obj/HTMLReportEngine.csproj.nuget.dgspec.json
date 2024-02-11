@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJECTS\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj": {}
+    "D:\\Projects\\BITSGit\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj": {}
   },
   "projects": {
-    "D:\\PROJECTS\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj": {
+    "D:\\Projects\\BITSGit\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECTS\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj",
+        "projectUniqueName": "D:\\Projects\\BITSGit\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj",
         "projectName": "HTMLReportEngine",
-        "projectPath": "D:\\PROJECTS\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj",
-        "packagesPath": "C:\\Users\\khairul.kabir\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECTS\\HTMLReportEngine\\HTMLReportEngine\\obj\\",
+        "projectPath": "D:\\Projects\\BITSGit\\HTMLReportEngine\\HTMLReportEngine\\HTMLReportEngine.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BITSGit\\HTMLReportEngine\\HTMLReportEngine\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\khairul.kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
