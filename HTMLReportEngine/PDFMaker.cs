@@ -106,25 +106,21 @@ namespace HTMLReportEngine
                 string htmlContent = GenerateHtmlContent(batchData, "Template", "DedupeReportTemplate.html");
 
                 // Generate PDF file for the current batch
-                string pdfFileName = $"{baseFileName}_{batchIndex + 1}";
+                string pdfFileName = $"{batchIndex + 1}";
                 GeneratePDF(folderName, pdfFileName, htmlContent, batchIndex + 1, totalBatches);
-                //string nextFileName = $"{baseFileName}_{batchIndex + 1}";
-                //if (batchIndex == 0)
-                //{
-                //    pdfFileName = $"{pdfFileName}{new Guid()}";
-                //    GeneratePDF(folderName, pdfFileName, htmlContent, batchIndex + 1, totalBatches);
-                //}
-                //else
-                //{
-                //    GeneratePDF(folderName, nextFileName, htmlContent, batchIndex + 1, totalBatches);
-                //}
 
-                //if (batchIndex > 0)
-                //{
-                //    MargePDF(pdfFileName, nextFileName);
-                //}
                 Console.WriteLine($"Done: {batchIndex}");
             }
+            string currentDirectory = Directory.GetCurrentDirectory();
+            while (!Directory.GetFiles(currentDirectory, "*.csproj").Any())
+            {
+                currentDirectory = Directory.GetParent(currentDirectory).FullName;
+            }
+
+            string folderPath = Path.Combine(currentDirectory, folderName);
+            string outputPath = Path.Combine(currentDirectory, $"{folderName}\\MainPDF.pdf");
+            PDFMargeByITextSharp pDFMargeByITextSharp = new PDFMargeByITextSharp();
+            pDFMargeByITextSharp.MargePDF(folderPath, outputPath);
         }
 
 

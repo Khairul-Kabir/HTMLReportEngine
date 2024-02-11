@@ -50,3 +50,5 @@ D:\Projects\BITSGit\HTMLReportEngine\HTMLReportEngine\obj\Debug\net8.0\refint\HT
 D:\Projects\BITSGit\HTMLReportEngine\HTMLReportEngine\obj\Debug\net8.0\HTMLReportEngine.pdb
 D:\Projects\BITSGit\HTMLReportEngine\HTMLReportEngine\obj\Debug\net8.0\HTMLReportEngine.genruntimeconfig.cache
 D:\Projects\BITSGit\HTMLReportEngine\HTMLReportEngine\obj\Debug\net8.0\ref\HTMLReportEngine.dll
+D:\Projects\BITSGit\HTMLReportEngine\HTMLReportEngine\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\Projects\BITSGit\HTMLReportEngine\HTMLReportEngine\bin\Debug\net8.0\itextsharp.dll

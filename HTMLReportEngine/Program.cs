@@ -24,4 +24,3 @@ string jsonFilePath = Path.Combine(currentDirectory, "Template", "DummyData", "D
 // Generate PDF files in batches
 fileReader.GeneratePDFBatch(folderName, baseFileName, jsonFilePath);
 
-
