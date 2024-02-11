@@ -155,7 +155,7 @@ public class HtmlFileReader
             htmlToPdf.Options.DisplayFooter = true;
 
             // Set header height
-            htmlToPdf.Header.Height = 300;
+            htmlToPdf.Header.Height = 180;
 
             // Set footer height
             htmlToPdf.Footer.Height = 50;
@@ -168,9 +168,13 @@ public class HtmlFileReader
             htmlToPdf.Header.Add(headerHtml);
 
             // Add page numbers to footer
-            PdfHtmlSection footerHtml = new PdfHtmlSection("<div style='text-align: center;'>Page: {page_number} of {total_pages}</div>", "");
+            PdfHtmlSection footerHtml = new PdfHtmlSection("<div style='text-align: left;'>Page: {page_number} of {total_pages}</div>", "");
             footerHtml.AutoFitHeight = HtmlToPdfPageFitMode.AutoFit;
             htmlToPdf.Footer.Add(footerHtml);
+
+            PdfTextSection text = new PdfTextSection(0, 10, "Page: {page_number} of {total_pages}  ", new System.Drawing.Font("Arial", 8));
+            text.HorizontalAlign = PdfTextHorizontalAlign.Right;
+            htmlToPdf.Footer.Add(text);
 
             // Convert HTML content to PDF
             PdfDocument pdfPage = htmlToPdf.ConvertHtmlString(htmlContent);
